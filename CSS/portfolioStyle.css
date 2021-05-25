@@ -1,0 +1,88 @@
+html{
+    position: relative;
+}
+body{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.navbar-menu .nav-item{
+    padding-left: 20px;
+}
+body .jumbotron{
+    background-image: url(../IMG/1FIX.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+}
+.jumbotron .my-img{
+    width: 150px;
+    border: 3px solid rgb(45, 45, 42);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.jumbotron h3{
+    font-weight: 400;
+}
+.jumbotron p{
+    font-weight: 300;
+}
+.jumbotron h3,
+.jumbotron p{
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.jumbotron hr{
+    width: 1200px;
+    border-top: .1px solid rgb(45, 45, 42);
+}
+section{
+    min-height: 600px;
+}
+.about{
+    min-height: 780px;
+    padding-top: 32px;
+}
+.about-header,
+.portfolio-header,
+.contact-header{
+    margin-bottom: 20px;
+}
+.about .col-sm-12 hr,
+.portfolio .col-sm-12 hr,
+.contact .col-sm-12 hr{
+    width: 200px;
+    border-top: 3px solid rgb(45, 45, 42);
+}
+.portfolio{
+    background-color: #e9ecef;
+    padding-top: 32px;
+    min-height: 780px;
+}
+.portfolio-img .col-sm-4{
+    margin-bottom: 34px;
+}
+.contact{
+    min-height: 780px;
+    padding-top: 32px;
+}
+.contact .contact-form{
+    padding-top: 20px;
+}
+footer{
+    padding-top: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #343a40;
+    color: white;
+}
+footer p{
+    font-size: .8em;
+}
+footer .row .col-sm-12 p a{
+    color: white;
+    text-decoration: none;
+}
+footer .row .col-sm-12 p a:visited{
+    color: white;
+    text-decoration: none;
+}
